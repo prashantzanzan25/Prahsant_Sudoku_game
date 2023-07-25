@@ -1825,7 +1825,8 @@ public class Sudokufiles extends javax.swing.JFrame {
 
     private void r5c1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_r5c1ActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(this, "This place is already allocated","Message",JOptionPane.INFORMATION_MESSAGE);
+        r5c1.setText(turn);
+        r5c1.setBackground(white);
     }//GEN-LAST:event_r5c1ActionPerformed
 
     private void r5c2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_r5c2ActionPerformed
